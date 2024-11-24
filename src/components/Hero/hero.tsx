@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.css';
-import di from '../../assets/laptop.png'
+
 
 const Hero: React.FC = () => {
     return (
@@ -13,9 +13,6 @@ const Hero: React.FC = () => {
           <p>Using AWS (Amazon Web Services)</p>
           <p>Simple websites or full stack applications</p>
           </div>
-         </div>
-         <div className='split'>
-         <img className="hero-image" src={di} alt=""  />
          </div>
         </div>
         </div>
