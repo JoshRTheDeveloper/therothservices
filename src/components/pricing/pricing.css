@@ -1,0 +1,28 @@
+.pricing-main-container {
+ display: flex;
+ flex-direction: column;
+ height: 50%;
+ width: 80%;
+ margin: 50px auto;
+ background-color: #2DBAC1;
+height: 100%;
+}
+
+.pricing-main-container h2 {
+font-size:  30px;
+color: antiquewhite;
+}
+
+.three-split {
+ display: flex;
+ align-items: center;
+
+}
+
+
+
+.three-split h2 {
+font-size: 30px;
+margin: 0px;
+}
+

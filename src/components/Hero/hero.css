@@ -1,0 +1,48 @@
+.main-background {
+ display: flex;
+ background: linear-gradient(to top, rgb(0, 0, 0), #292929, rgb(0, 0, 0)); 
+
+}
+
+.main-container {
+ display: flex;
+ width: 60vw;
+ margin: 50px auto;
+}
+
+.main-container p {
+ color: rgb(255, 255, 255);
+}
+
+
+.split {
+ display: flex;
+ align-items: center;
+width: 50%;
+justify-content: space-evenly;
+
+}
+
+.primary-h1 {
+ background: linear-gradient(to top, rgb(255, 255, 255), #defdff, rgba(255, 255, 255, 0.7)); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
+
+.primary-h2 {
+ background: linear-gradient(to top, rgb(197, 242, 255), #2DBAC1, rgba(0, 136, 255, 0.7)); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+
+}
+
+.split h1 {
+font-size: 4vw;
+margin: 0px;
+line-height: 1;
+}
+
+.hero-image {
+ width: 30vw;
+
+}
