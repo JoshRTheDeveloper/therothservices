@@ -14,6 +14,29 @@
  color: rgb(255, 255, 255);
 }
 
+.mobile-container {
+ display: flex;
+ flex-direction: column;
+ width: 75vw;
+ margin: 50px auto;
+}
+
+.m-primary-h1 {
+ background: linear-gradient(to top, rgb(255, 255, 255), #defdff, rgba(255, 255, 255, 0.7)); 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+ font-size: 6vh;
+}
+
+
+.mobile-container p {
+ color: rgb(255, 255, 255);
+}
+
+.mhero-image {
+ width: 75vw;
+
+}
 
 .split {
  display: flex;

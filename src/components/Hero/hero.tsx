@@ -1,23 +1,54 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './hero.css';
-
+import di from '../../assets/laptop.png';
 
 const Hero: React.FC = () => {
+    const [isMobile, setIsMobile] = useState<boolean>(false);
+
+    // Function to check screen size
+    const updateScreenSize = () => {
+        setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+    };
+
+    useEffect(() => {
+        updateScreenSize();
+        window.addEventListener('resize', updateScreenSize);
+
+        return () => window.removeEventListener('resize', updateScreenSize);
+    }, []);
+
     return (
         <div className='main-background'>
-        <div className='main-container'> 
-         <div className='split'>
-          <div>
-          <h1 className='primary-h1'>Affordable </h1>
-          <h1 className='primary-h2'>Web Services </h1>
-          <p>Using AWS (Amazon Web Services)</p>
-          <p>Simple websites or full stack applications</p>
-          </div>
-         </div>
+            {isMobile ? (
+         
+                <div className='mobile-container'>
+                    <h1 className='m-primary-h1'>Affordable Web Services</h1>
+     
+                    <div className='split'>
+                        <img className="mhero-image" src={di} alt="Laptop showcasing web services" />
+                    </div>
+                    <p>Using AWS (Amazon Web Services)</p>
+                    <p>Simple websites or full stack applications</p>
+                </div>
+                
+            ) : (
+                // Desktop View
+                <div className='main-container'>
+                    <div className='split'>
+                        <div>
+                            <h1 className='primary-h1'>Affordable </h1>
+                            <h1 className='primary-h2'>Web Services </h1>
+                            <p>Using AWS (Amazon Web Services)</p>
+                            <p>Simple websites or full stack applications</p>
+                        </div>
+                    </div>
+                    <div className='split'>
+                        <img className="hero-image" src={di} alt="Laptop showcasing web services" />
+                    </div>
+                </div>
+            )}
         </div>
-        </div>
-
     );
 };
 
-export default Hero; // Ensure the export matches the component name
+export default Hero;
