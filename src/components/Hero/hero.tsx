@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
 
     // Function to check screen size
     const updateScreenSize = () => {
-        setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+        setIsMobile(window.innerWidth <= 870); 
     };
 
     useEffect(() => {
@@ -22,9 +22,10 @@ const Hero: React.FC = () => {
             {isMobile ? (
          
                 <div className='mobile-container'>
-                    <h1 className='m-primary-h1'>Affordable Web Services</h1>
+                    <h1 className='m-primary-h1'>Affordable</h1>
+                    <h1 className='m-primary-h2'>Web Services</h1>
      
-                    <div className='split'>
+                    <div className='msplit'>
                         <img className="mhero-image" src={di} alt="Laptop showcasing web services" />
                     </div>
                     <p>Using AWS (Amazon Web Services)</p>
@@ -32,7 +33,7 @@ const Hero: React.FC = () => {
                 </div>
                 
             ) : (
-                // Desktop View
+            
                 <div className='main-container'>
                     <div className='split'>
                         <div>
