@@ -1,7 +1,7 @@
 // src/App.tsx
 import Nav from './components/Nav/nav';
 import Hero from './components/Hero/hero';
-// import Pricing from './components/pricing/pricing';
+import Pricing from './components/pricing/services';
 import './App.css'; // Import the CSS for styling
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Hero />
    
    
-        {/* <Pricing /> */}
+        <Pricing />
    
       {/* Add more sections as needed */}
     </main>
