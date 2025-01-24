@@ -7,7 +7,7 @@ import Bullies from '../../assets/bullies.png'
 import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/purpose.png'
 import Antioch from '../../assets/antioch.png'
-import Four from '../../assets/4Di.png'
+import Four from '../../assets/four.png'
 import Lake from '../../assets/lake.png'
 
 const Portfolio = () => {
