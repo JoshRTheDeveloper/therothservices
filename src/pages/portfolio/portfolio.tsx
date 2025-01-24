@@ -9,6 +9,22 @@ import Purpose from '../../assets/pur.png'
 import Antioch from '../../assets/ant.png'
 import Four from '../../assets/four.png'
 import Lake from '../../assets/lak.png'
+import Mis from '../../assets/mis.png'
+import Grac from '../../assets/grac.png'
+import Cro from '../../assets/cro.png'
+import Cam from '../../assets/cam.png'
+import Far from '../../assets/far.png'
+import Riv from '../../assets/riv.png'
+import Run from '../../assets/run.png'
+import Heb from '../../assets/heb.png'
+import Bod from '../../assets/bod.png'
+import Hot from '../../assets/hot.png'
+import Mac2 from '../../assets/mac.png'
+import Mou from '../../assets/mou.png'
+import Sha from '../../assets/sha.png'
+import Gre from '../../assets/gre.png'
+import Cal from '../../assets/cal.png'
+import Ida from '../../assets/ida.png'
 
 const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -61,6 +77,102 @@ const Portfolio = () => {
             description: 'A Church Website',
             url: 'https://www.lakeviewmbc.org',
             image: Lake,
+        },
+        {
+            name: 'Mission Dorado Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.mdbc.church',
+            image: Mis,
+        }, 
+        {
+            name: 'Grace Wyoming Church',
+            description: 'A Church Website',
+            url: 'https://www.gracewyoming.org',
+            image: Grac,
+        },
+        {
+            name: 'First Baptist Crowley',
+            description: 'A Church Website',
+            url: 'https://www.fbccrowley.org',
+            image: Cro,
+        },
+        {
+            name: 'Southern Baptist Camping Associaiton',
+            description: 'A Church Website',
+            url: 'https://sbcamping.org',
+            image: Cam,
+        },
+        {
+            name: 'Farmington Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.farmingtonbaptistchurch.com/',
+            image: Far,
+        },
+        {
+            name: 'Church at the River Oaks',
+            description: 'A Church Website',
+            url: 'https://tcro.org',
+            image: Riv,
+        },
+        {
+            name: 'Longrun Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.longrunbaptistchurch.org/',
+            image: Run,
+        },
+        {
+            name: 'Hebron Baptist Church',
+            description: 'A Church Website',
+            url: 'https://hbcbells.com',
+            image: Heb,
+        },
+        {
+            name: 'Body of Faith',
+            description: 'A Church Website',
+            url: 'https://www.bodyoffaith.com/',
+            image: Bod,
+        },
+          {
+            name: 'Hot Rods of Andice',
+            description: 'Created a replica of this site',
+            url: 'https://www.customsandhotrodsofandice.com',
+            image: Hot,
+        },
+        {
+            name: 'Macedonia MBC',
+            description: 'A Church Website',
+            url: 'https://www.macedoniabaptistoftroy.com',
+            image: Mac2,
+        },
+        {
+            name: 'Mountain View Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.foothillsmountainview.org/',
+            image: Mou,
+        },
+        {
+            name: 'Shady Crest Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.shadycrest.org/',
+            image: Sha,
+        },
+        {
+            name: 'Greenwood Christian Church',
+            description: 'A Church Website',
+            url: 'https://www.greenwoodchristianchurch.com/',
+            image: Gre,
+        },
+        {
+            name: 'Calvary Baptist Church',
+            description: 'A Church Website',
+            url: 'https://www.calvarybaptistdfw.org/',
+            image: Cal,
+        },
+        {
+            name: 'First Baptist Church Idalou',
+            description: 'A Church Website',
+            url: 'https://www.fbidalou.com/',
+            image: Ida,
         },
     ];
 
