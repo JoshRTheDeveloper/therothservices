@@ -30,6 +30,7 @@ const Hero: React.FC = () => {
                     </div>
                     <p>Using AWS (Amazon Web Services)</p>
                     <p>Simple websites or full stack applications</p>
+                    <button className='main-button' onClick={() => window.location.href = 'mailto:therothservices@gmail.com?subject=Web Services'}>Email</button>
                 </div>
                 
             ) : (
@@ -41,6 +42,10 @@ const Hero: React.FC = () => {
                             <h1 className='primary-h2'>Web Services </h1>
                             <p>Using AWS (Amazon Web Services)</p>
                             <p>Simple websites or full stack applications</p>
+                                <div className='button-container'>
+                                  <button className='main-button' onClick={() => window.location.href = 'mailto:therothservices@gmail.com?subject=Web Services'}>Contact</button>
+                                </div>
+                           
                         </div>
                     </div>
                     <div className='split'>

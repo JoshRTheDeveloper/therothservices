@@ -9,6 +9,7 @@ nav {
  border-bottom: 2px solid black;
  box-sizing: border-box;
  z-index: 1000;
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.632);
 }
 
 .navbar-brand {

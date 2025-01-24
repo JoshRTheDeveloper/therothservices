@@ -1,7 +1,7 @@
 .main-background {
  display: flex;
  background: linear-gradient(to top, rgb(0, 0, 0), #292929, rgb(0, 0, 0)); 
-
+width: 100vw;
 }
 
 .main-container {
@@ -43,6 +43,15 @@ line-height: 1;
 
 .hero-image {
  width: 30vw;
+}
+
+.button-container {
+  padding: 20px;
+}
+
+.main-button {
+  color: #ffffff;
+  background-color: #2DBAC1;
 }
 
 /* MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE-MOBILE */ 
