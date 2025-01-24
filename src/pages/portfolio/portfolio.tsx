@@ -14,7 +14,7 @@ import Grac from '../../assets/grac.png'
 import Cro from '../../assets/cro.png'
 import Cam from '../../assets/cam.png'
 import Far from '../../assets/ar.png'
-import Riv from '../../assets/riv.png'
+import Riv from '../../assets/iv.png'
 import Run from '../../assets/run.png'
 import Heb from '../../assets/heb.png'
 import Bod from '../../assets/bod.png'
@@ -191,7 +191,7 @@ const Portfolio = () => {
     const resizeModal = (width: string, height: string) => {
         setModalSize({ width, height });
     };
-
+///comment
     return (
         <div className="portfolio-container">
             <h1>Portfolio</h1>
