@@ -8,7 +8,7 @@ import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/pur.png'
 import Antioch from '../../assets/ant.png'
 import Four from '../../assets/four.png'
-import Lake from '../../assets/lake.png'
+import Lake from '../../assets/lak.png'
 
 const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
