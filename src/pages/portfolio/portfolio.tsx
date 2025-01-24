@@ -3,7 +3,7 @@ import './portfolio.css';
 import Iphone from '../../assets/iphone.svg'
 import Ipad from '../../assets/ipad.svg'
 import Mac from '../../assets/mac.svg'
-import Bullies from '../../assets/bullies.png'
+import Bullies from '../../assets/bull.png'
 import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/purpose.png'
 import Antioch from '../../assets/antioch.png'
