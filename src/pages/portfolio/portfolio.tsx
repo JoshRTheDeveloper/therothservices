@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './portfolio.css'; 
 import Iphone from '../../assets/iphone.svg'
 import Ipad from '../../assets/ipad.svg'
