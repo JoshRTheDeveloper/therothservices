@@ -6,7 +6,7 @@ import Mac from '../../assets/mac.svg'
 import Bullies from '../../assets/bull.png'
 import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/pur.png'
-import Antioch from '../../assets/antioch.png'
+import Antioch from '../../assets/ant.png'
 import Four from '../../assets/four.png'
 import Lake from '../../assets/lake.png'
 
