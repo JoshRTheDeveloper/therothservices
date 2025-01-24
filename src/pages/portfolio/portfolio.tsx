@@ -3,7 +3,7 @@ import './portfolio.css';
 import Iphone from '../../assets/iphone.svg'
 import Ipad from '../../assets/ipad.svg'
 import Mac from '../../assets/mac.svg'
-import Bullies from '../../assets/bullies.png'
+import BulliesImage from '../../assets/bullies.png'
 import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/purpose.png'
 import Antioch from '../../assets/antioch.png'
@@ -19,7 +19,7 @@ const Portfolio = () => {
             name: 'Bullies of Texas',
             description: 'A website for a dog breeder ',
             url: 'https://www.bulliesoftexas.com',
-            image: Bullies,
+            image: BulliesImage,
         },
         {
          name: 'Valwood Park Church',
@@ -79,8 +79,8 @@ const Portfolio = () => {
             <p>
             In web design, 
             the ultimate goal is to create a product 
-            that satisfies the client’s vision while ensuring usability, 
-            functionality, and aesthetic appeal. There are times when a client’s 
+            that satisfies the client's vision while ensuring usability, 
+            functionality, and aesthetic appeal. There are times when a client's 
             preferences or ideas may not align with best practices or my design instincts. 
             </p>
             <p>Please feel free to ask me about any design choices.</p>
