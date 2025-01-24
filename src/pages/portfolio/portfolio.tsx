@@ -3,7 +3,7 @@ import './portfolio.css';
 import Iphone from '../../assets/iphone.svg'
 import Ipad from '../../assets/ipad.svg'
 import Mac from '../../assets/mac.svg'
-import BulliesImage from '../../assets/bullies.png'
+import Bullies from '../../assets/bullies.png'
 import Valwood from '../../assets/valwood.png'
 import Purpose from '../../assets/purpose.png'
 import Antioch from '../../assets/antioch.png'
@@ -19,7 +19,7 @@ const Portfolio = () => {
             name: 'Bullies of Texas',
             description: 'A website for a dog breeder ',
             url: 'https://www.bulliesoftexas.com',
-            image: BulliesImage,
+            image: Bullies,
         },
         {
          name: 'Valwood Park Church',
