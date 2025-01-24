@@ -187,7 +187,7 @@ const Portfolio = () => {
     const closeModal = () => {
         setSelectedProject(null);
     };
-//line 190
+
     const resizeModal = (width: string, height: string) => {
         setModalSize({ width, height });
     };
