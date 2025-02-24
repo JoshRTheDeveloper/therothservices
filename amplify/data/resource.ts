@@ -12,8 +12,16 @@ const schema = a.schema({
       content: a.string(),
     }).authorization(allow => [allow.owner()]),
     
-    
+  ContactFormSubmission: a
+    .model({
+      name: a.string(),
+      email: a.string(),
+      phone: a.string(),
+      subject: a.string(),
+      message: a.string(),
+    }).authorization(allow => [allow.publicApiKey()]),
 });
+
 
 export type Schema = ClientSchema<typeof schema>;
 
@@ -24,6 +32,9 @@ export const data = defineData({
     
   },
 });
+
+
+
 
 /*== STEP 2 ===============================================================
 Go to your frontend source code. From your client-side code, generate a

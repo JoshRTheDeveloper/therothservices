@@ -154,6 +154,44 @@ align-items: center;
     width: 80%; 
 }
 
+.bg-black {
+    background-color: #535353;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.social-media-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-column {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+
+.social-image {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+
+.image-column:hover .social-image {
+    transform: scale(2) translate(-25%, -25%); 
+    z-index: 10;
+    border-color: #000; 
+}
 
 
 

@@ -5,6 +5,7 @@ import Hero from './components/Hero/hero';
 import Pricing from './components/pricing/services';
 import Form from './components/Form/form';
 import Subpage from './pages/portfolio/portfolio';
+import Mail from './components/mail/mail';
 import './App.css'; 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                     </main>
                 } />
                 <Route path="/portfolio" element={<Subpage />} />
+                <Route path="/mail" element={<Mail />} />
             </Routes>
         </Router>
     );
