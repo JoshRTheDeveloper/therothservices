@@ -63,6 +63,7 @@ import Smr from '../../assets/smr.png'
 import Sms from '../../assets/sms.png'
 import Smt from '../../assets/smt.png'
 import Smu from '../../assets/smu.png'
+//comment
 const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
     const [modalSize, setModalSize] = useState({ width: '80%', height: '80vh' });
